@@ -1,0 +1,23 @@
+﻿---
+ID: "e53e474b-5df2-4ac7-b3b1-87e28b8d0ad5"
+Parent: "8cd7f803-5787-4b46-9fa7-dee0f9709a00"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Modules/Maintenance Notification/Notification Settings/VAPID Keys
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210109T161109Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "23b7700d-97ed-4dc4-941a-5076867c26a6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210114T024214Z

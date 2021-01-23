@@ -1,0 +1,57 @@
+﻿---
+ID: "568478c7-6faa-43ff-a53b-d6bd5c63a665"
+Parent: "c1a343ec-c260-4510-a130-667fd1e5d2e1"
+Template: "8cd7f803-5787-4b46-9fa7-dee0f9709a00"
+Path: /sitecore/system/Modules/PowerShell/Script Library/Maintenance Notification/Notification Settings
+SharedFields:
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\Everyone|pe|+item:read|+item:write|au|sitecore\test|pe|+item:read|^*|pd|+item:read|^*|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0e896251-af40-44e9-a5cc-5c19b251a926"
+      Hint: CompletionMessage
+      Value: "Scheduled Maintenance for Sitecore Services is now complete! You're good to go!!"
+    - ID: "0fd92b07-8e4e-4073-a110-fd965f93ee9b"
+      Hint: MaintenanceMessageFormat
+      Value: "Scheduled Maintenance: Sitecore Authoring & Marketing Suites will be briefly unavailable on {date}({day}) {startTime} - {endTime} {timeZone}"
+    - ID: "17c727f6-4f03-410f-b58d-20eb87deafb8"
+      Hint: ReminderTime
+      Value: 2
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210109T161210Z
+    - ID: "2da7f9e1-ac79-4565-8e7d-69b4fd8c4684"
+      Hint: PublicKey
+      Value: BGuaRmWnYjIHaMgsZMGS4Amlb_LMy3ll8qrZXqaYRYFbdmzi2kDJ8ILnSUvapVmxgY5Vsa8Q17xR4rJNGsTr5Pk
+    - ID: "2f4e119a-67fc-4e43-a742-4389884e336c"
+      Hint: MaintenanceDuration
+      Value: 1
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8a74d11d-4c40-46bf-9917-c2b0eb0c4176"
+      Hint: NotificationTitle
+      Value: Sitecore
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ba6fb94e-034f-4da5-9cba-662a3748dc8e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210122T225636Z
+    - ID: "eaf73364-035d-46b0-b55a-79c9315edd3b"
+      Hint: ReminderMessage
+      Value: "Scheduled Maintenance will begin shortly. Please make sure to save your changes!"
